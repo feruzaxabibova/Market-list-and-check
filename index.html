@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 7-dars uy ishi</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+</head>
+<body style="background: url(./img/food-bg.jpg);background-size: cover;background-repeat: no-repeat;">
+
+    <div class="container">
+        <h1 class="my-5 text-center text-white fw-bold heading">Savatcha</h1>
+
+        <div class="d-flex justify-content-around">
+            <form class="w-50 m-auto mx-3 p-4 bg-light form-control shopping-list-form" action="https://echo.htmlacademy.ru" method="POST">
+                <div>
+                    <label class="form-label" for="shop-label">Mahsulot nomini kiriting</label>
+                    <input class="form-control mb-4 shopping-list-input" type="text" id="shop-label" placeholder="olma..." aria-label="Enter fruit name" autocapitalize="off" required>
+                </div>
+                <button class="btn btn-success px-5 shopping-button" type="submit">Add</button>
+                <hr>
+                <output></output>
+            </form>
+    
+            <form class="w-50 m-auto p-4 bg-light form-control shopping-check-form" action="https://echo.htmlacademy.ru" method="POST">
+                <div>
+                    <label class="form-label" for="shop-label">Mahsulot nomini kiriting</label>
+                    <input class="form-control mb-4 shopping-check-input" type="text" id="shop-label" placeholder="olma..." aria-label="Enter fruit name" autocapitalize="off" required>
+                </div>
+                <button class="btn btn-success px-5 shopping-check-button" type="submit">Check</button>
+                <hr>
+                <output class="check-result"></output>
+            </form>
+        </div>
+
+        <ol class="px-5 d-block my-3 text-white fs-3 shopping-list output"></ol>
+        
+    </div>
+    
+
+
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
