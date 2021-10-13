@@ -5,6 +5,7 @@ var elShoppingCheckbox = document.querySelector('.js-checkbox');
 
 var shoppingList = [];
 
+//First form
 elShoppingListForm.addEventListener("submit", function (evt) {
     evt.preventDefault();
     
@@ -29,7 +30,7 @@ elShoppingListForm.addEventListener("submit", function (evt) {
    
 });
 
-
+//Second form
 var elShoppingCheckForm = document.querySelector('.shopping-check-form');
 var elShoppingCheckInput = document.querySelector('.shopping-check-input');
 var elShoppingResult = document.querySelector('.check-result');
